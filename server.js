@@ -29,7 +29,7 @@ app.use(express.json());
 
 // 🔹 기본 라우트
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello World!!!");
 });
 
 // 🔹 /home 라우트 (원하면 유지)
